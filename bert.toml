@@ -1,0 +1,10 @@
+[instance]
+name = "bert-scout"
+persona_repo = "/personas/bert-scout-persona"
+
+[runtime]
+tramway = { path = "../tramway" }
+boxcarve = { path = "../boxcarve" }
+
+[runs]
+output_dir = "./runs"

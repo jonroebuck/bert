@@ -1,0 +1,15 @@
+[persona]
+repo = "/personas/bert-scout-persona"
+training = ["git-fundamentals", "python-patterns", "test-coverage-analysis"]
+
+[tools]
+mcp_servers = ["github"]
+web_search = true
+
+[urls]
+fetch = ["https://docs.github.com/en/rest"]
+
+[retry]
+max_attempts = 3
+backoff = "exponential"
+jitter = true
