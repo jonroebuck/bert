@@ -1,6 +1,6 @@
-pub struct BoxcarveClient;
+pub struct BoxcarClient;
 
-impl BoxcarveClient {
+impl BoxcarClient {
     pub async fn get_tools(&self) {}
 
     pub async fn call_tool(&self) {}
