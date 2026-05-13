@@ -3,8 +3,8 @@ name = "bert-scout"
 persona_repo = "/personas/bert-scout-persona"
 
 [runtime]
-tramway = { path = "../tramway" }
-boxcarve = { path = "../boxcarve" }
+tramway = { path = "github.com/jonroebuck/tramway" }
+boxcar = { path = "github.com/jonroebuck/boxcar" }
 
 [runs]
 output_dir = "./runs"
